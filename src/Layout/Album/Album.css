@@ -1,0 +1,24 @@
+.album {
+    width: 70px;
+    height: 60px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.album .icon {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background-image: url(../../images/folder.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    transition: all 0.3s ease;
+}
+
+.album .icon.favourites {
+    background-position: 0 -60px;
+}
+
+.album:hover .icon {
+    filter:brightness(150%);
+}

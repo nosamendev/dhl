@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
